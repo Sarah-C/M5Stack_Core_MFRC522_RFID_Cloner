@@ -1,9 +1,4 @@
-/*
-    Description: Use the RFID Unit to read the Fudan card ID and display the ID on the screen.
 
-  Sarah UID: B4 D5 95 D2
-
-*/
 #include <Wire.h>
 #include "MFRC522_I2C.h"
 #include <M5Stack.h>
