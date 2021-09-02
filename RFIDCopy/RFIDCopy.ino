@@ -3,7 +3,7 @@
 #include "MFRC522_I2C.h"
 #include <M5Stack.h>
 
-// 0x28 is i2c address on SDA. Check your address with i2cscanner if not match.
+// 0x28 is i2c address on SDA.
 MFRC522 mfrc522(0x28);   // Create MFRC522 instance.
 
 enum state {
